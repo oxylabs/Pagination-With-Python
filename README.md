@@ -19,7 +19,7 @@ This article covers everything you need to know about dealing with pagination us
 
 ## Introduction
 
-Pagination is a common feature for most of websites. There is always a lot to display which can be done on one page. This is true for product listings, blogs, photos, videos, directories, etc. 
+Pagination is a common feature for most websites. There is always a lot to display which can be done on one page. This is true for product listings, blogs, photos, videos, directories, etc. 
 
 Each website has its way of using pagination. The common types of pagination are as follows:
 
