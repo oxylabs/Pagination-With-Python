@@ -222,7 +222,7 @@ If we scroll down, the next 8 products are loaded. Also, notice the following:
 
 ![Infinite Scroll](images/scroll_html_response.png)
 
-To handle pagination for this site, first of we will load the index page and extract the number of products. We have already observed that 8 products are loaded in one request.  Now we can calculate the number of pages as following
+To handle pagination for this site, first of we will load the index page and extract the number of products. We have already observed that 8 products are loaded in one request.  Now we can calculate the number of pages as follows:
 
 Number of pages = 132/8 =16.5
 
@@ -253,7 +253,7 @@ for page_numer in range(2, page_count+1):
 
 ## Pagination with Load More Button
 
-The way the pagination using a Load More button works is very similar to how infinite scroll works. The only difference is how loading the next page is triggered on browser.
+The way the pagination using a Load More button works is very similar to how infinite scroll works. The only difference is how loading the next page is triggered on the browser.
 
 As we are working directly with the web page without a browser, these two scenarios need to be handled the same way. 
 
@@ -263,7 +263,7 @@ You will see that the response is in JSON format with an attribute `remaining`. 
 
 - Each request gets 12 results 
 - The value of remaining decreases by 12 with every click of Load More
-- If we set the value page to 1 in the api url, it get's the first page of the results - `https://smarthistory.org/wp-json/smthstapi/v1/objects?tag=938&page=1`
+- If we set the value page to 1 in the API url, it get's the first page of the results - `https://smarthistory.org/wp-json/smthstapi/v1/objects?tag=938&page=1`
 
 ![](images/load_more_button.png)
 
