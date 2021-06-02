@@ -288,9 +288,3 @@ while True:
 
 ```
 
-
-
-## Conclusion
-
-There can be many ways websites use to display pagination. To understand how it is working, it is important to look at the markup, as well as the network traffic using the Developer Tools. This tutorial examined four broad types of pagination and how to handle these. Even if you encounter something new, you should be able to figure it out based on this article.
-
