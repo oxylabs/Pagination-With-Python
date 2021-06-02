@@ -7,15 +7,14 @@ This article covers everything you need to know about dealing with pagination us
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Pagination with Next button](#pagination-with-next-button)
+- [Pagination With Next button](#pagination-with-next-button)
   - [Analyzing the Website](#analyzing-the-website)
   - [Python Code to Handle Pagination](#python-code-to-handle-pagination)
 - [Pagination Without Next Button](#pagination-without-next-button)
-- [Pagination with Infinite Scroll](#pagination-with-infinite-scroll)
+- [Pagination With Infinite Scroll](#pagination-with-infinite-scroll)
   - [Handling Sites with JSON Response](#handling-sites-with-json-response)
   - [Handling Sites with HTML Response](#handling-sites-with-html-response)
-- [Pagination with Load More Button](#pagination-with-load-more-button)
-- [Conclusion](#conclusion)
+- [Pagination With Load More Button](#pagination-with-load-more-button)
 
 ## Introduction
 
@@ -30,7 +29,7 @@ Each website has its way of using pagination. The common types of pagination are
 
 In this article, we will examine these cases and explore ways to handle these websites. 
 
-## Pagination with Next button
+## Pagination With Next button
 
 Let's start with a simple example. Head over to [this page](http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html) and see the pagination.
 
@@ -165,7 +164,7 @@ for link_el in page_link_el:
 
 You can find the complete code in the file `no_next_button.py`.
 
-## Pagination with Infinite Scroll
+## Pagination With Infinite Scroll
 
 This kind of pagination does not show page numbers or a next button. 
 
@@ -173,7 +172,7 @@ Let's take [this site](https://techinstr.myshopify.com/collections/all) as an ex
 
 In such cases, websites use an asynchronous call to an API to get more content and show this content on the page using JavaScript. The actual data returned by the API can be HTML or JSON. 
 
-### Handling Sites with JSON Response
+### Handling Sites With JSON Response
 
 Before you load the site, press `F12` to open Developer Tools, head over to Network tab, and select XHR.  Now go to `http://quotes.toscrape.com/scroll` and monitor the traffic. Scroll down to load more content. 
 
@@ -206,7 +205,7 @@ Once we figure out how the site works, it's quite easy.
 
 Now let's look at one more example.
 
-### Handling Sites with HTML Response
+### Handling Sites With HTML Response
 
 In the previous section, we looked at that figuring out when to stop is important. The earlier example was easier. All we needed was to examine an attribute in the JSON. 
 
@@ -251,7 +250,7 @@ for page_numer in range(2, page_count+1):
 
 
 
-## Pagination with Load More Button
+## Pagination With Load More Button
 
 The way the pagination using a Load More button works is very similar to how infinite scroll works. The only difference is how loading the next page is triggered on the browser.
 
