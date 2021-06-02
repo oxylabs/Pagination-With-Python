@@ -1,4 +1,4 @@
-# Dealing With Pagination via Python   
+# Dealing With Pagination Via Python   
 
 <img src="https://img.shields.io/static/v1?label=&message=Python&color=blueviolet" />  <img src="https://img.shields.io/static/v1?label=&message=Pagination&color=blue" /> <img src="https://img.shields.io/static/v1?label=&message=Web%20Scraping&color=yellowgreen" /> 
 
