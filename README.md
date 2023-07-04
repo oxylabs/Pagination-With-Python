@@ -1,5 +1,8 @@
 # Dealing With Pagination Via Python   
 
+[![Oxylabs promo code](https://user-images.githubusercontent.com/129506779/250792357-8289e25e-9c36-4dc0-a5e2-2706db797bb5.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
+
+
 <img src="https://img.shields.io/static/v1?label=&message=Python&color=blueviolet" />  <img src="https://img.shields.io/static/v1?label=&message=Pagination&color=blue" /> <img src="https://img.shields.io/static/v1?label=&message=Web%20Scraping&color=yellowgreen" /> 
 
 This article covers everything you need to know about dealing with pagination using Python. By the end of this article, you will be able to deal with various kinds of pagination in web scraping projects.
